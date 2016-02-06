@@ -121,7 +121,7 @@ echo "zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.4.so" >> /etc/php
 # php version check
 sed -i 's/expose_php = On/expose_php = Off/g' /etc/php5/cgi/php.ini
 
-# disable allow_url_fopen
+# disable allow_url_fopen for security
 sed -i 's/allow_url_fopen = On/allow_url_fopen = Off/g' /etc/php5/cgi/php.ini
 
 # apache version check
