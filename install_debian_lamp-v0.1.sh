@@ -4,7 +4,7 @@
 siteuser="some_user"
 sitepass="some_pass"
 
-#installation of packages
+#installation of packages#
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get -y install mysql-server apache2 apache2-suexec-custom libapache2-mod-fcgid libapache2-mod-rpaf php5-cgi php5-mysql php5-common php5-gd php5-mcrypt php5-imap php5-ldap php5-odbc php5-xmlrpc  php5-curl libmysqlclient15-dev sqlite php5-sqlite libjpeg62 libjpeg62-dev libfreetype6 libfreetype6-dev zlib1g-dev libpng-dev imagemagick php5-imagick ffmpeg php5-ffmpeg unzip libdatetime-perl libdbi-perl libdbd-mysql-perl libclass-autouse-perl libhtml-template-perl libimage-size-perl libmime-lite-perl libmime-perl libnet-dns-perl liburi-perl libhtml-tagset-perl libhtml-parser-perl libwww-perl libwww-perl libgd-gd2-perl libmailtools-perl libunicode-maputf8-perl libxml-simple-perl libio-stringy-perl  libcaptcha-recaptcha-perl libdigest-hmac-perl  libgd-graph-perl librpc-xml-perl libsoap-lite-perl libxml-rss-perl libstring-crc32-perl libxml-atom-perl libmath-bigint-gmp-perl liburi-fetch-perl libcrypt-dh-perl perlmagick libclass-accessor-perl libclass-trigger-perl libclass-data-inheritable-perl libgnupg-interface-perl libmail-gnupg-perl libtext-vcard-perl
